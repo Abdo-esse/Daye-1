@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-  int m=12,j=365,h=8760,min=525600,sec=31536000;
+
 
 int main()
 {
-   int a,c,m,j,h,min,sec=3;;
+   int a,c,m,j,h,min,sec;
 
 
    printf("veuillea entrer le nombre des annee : ");
@@ -37,7 +37,7 @@ int main()
         break;
     default:
         printf("Veuillez entrer entre:\n 1 pour les mois.\n 2 pour les jour.\n 3 pour les heurs.\n 4 pour les minutes.\n 5 pour les seconde ");
-
+        break;
 
 
 

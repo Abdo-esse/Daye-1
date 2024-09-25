@@ -9,7 +9,7 @@ int main()
     scanf("%c",&c);
 
     if ((c >= 'A' && c <= 'Z')||(c >= 'a' && c <= 'z'))
-        printf("Cette caracter est un alphabet.");
+        printf("Cette caracter est un alphabet. \n");
 
 
     else

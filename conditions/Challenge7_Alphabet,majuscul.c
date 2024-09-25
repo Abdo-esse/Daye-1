@@ -9,7 +9,7 @@ int main()
    scanf("%c",&c);
 
 
-   if (c >= 'A' && c <= 'Z')
+   if (c >= 65 && c <= 90)
      printf("le caractère donne est un alphabet majuscule ");
 
 

@@ -8,19 +8,25 @@ int main()
     printf("Veuillez enrer un caractere : ");
     scanf("%c",&c);
 
-    if ((c >= 'A' && c <= 'Z')||(c >= 'a' && c <= 'z'))
+    if ((c >= 'A' && c <= 'Z')||(c >= 'a' && c <= 'z')){
         printf("Cette caracter est un alphabet. \n");
+
+              if (c >= 'a' && c <= 'z')
+                   printf("Cet alphabet est minuscule.");
+
+              else
+                   printf("Cet alphabet est majuscule.");
+    }
+
+
 
 
     else
-       printf("Cette caracter n'est pas d'un alphabet./n");
+       printf("Cette caracter n'est pas d'un alphabet.");
 
 
-     if (c >= 'a' && c <= 'z')
-        printf("Cet alphabet est minuscule.");
 
-     else
-        printf("Cet alphabet est majuscule.");
 
     return 0;
 }
+
